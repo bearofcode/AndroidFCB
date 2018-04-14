@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhangxiong.fcb.AboutusActivity"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#e0000000">
+
+        <ImageButton
+            android:id="@+id/myback"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="17dp"
+            android:background="@mipmap/myleft"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="关于我们"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="        城市废旧车辆处理回收APP是重庆铺路石责任有限公司正在开发的“基于‘互联网+’时代废旧车辆处理新模式”项目的平台载体。重庆铺路石责任有限公司的业务范围主要是对城市区域内所有的废旧车辆，包括废旧机动车辆和废旧非机动车辆进行科学合理的回收处理。而项目以此APP为载体，实现收集废旧车辆信息、发布车辆运输任务、为废车处理公司提供汽车零件销售平台等功能，有效提升城市废旧车辆回收和处理的效率，节约社会资源，减少环境污染。"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/layout"
+    android:gravity="center"
+              android:clickable="true">
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="废旧车辆"
+        android:textColor="#eff0f0ff"
+        android:textSize="20sp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/photo"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="湘ML6wh68"
+        android:textColor="#eff0f0ff"
+        android:textSize="20sp"/>
+
+</LinearLayout>
